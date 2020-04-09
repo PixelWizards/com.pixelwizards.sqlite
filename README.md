@@ -76,4 +76,4 @@ reader = dbcmd.ExecuteReader();
 ```
 
 # Tutorial
-Read this [artcle on medium](https://medium.com/@rizasif92/sqlite-and-unity-how-to-do-it-right-31991712190) for more details on using SQLite with Unity.
+Read this [article on medium](https://medium.com/@rizasif92/sqlite-and-unity-how-to-do-it-right-31991712190) for more details on using SQLite with Unity.
