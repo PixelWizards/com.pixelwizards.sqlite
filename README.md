@@ -75,5 +75,9 @@ dbcmd.CommandText = q_createTable;
 reader = dbcmd.ExecuteReader();
 ```
 
+# Sample Project
+There is a sample project that uses this package available here:
+https://github.com/PixelWizards/com.pixelwizards.sqlite-example
+
 # Tutorial
 Read this [article on medium](https://medium.com/@rizasif92/sqlite-and-unity-how-to-do-it-right-31991712190) for more details on using SQLite with Unity.
