@@ -1,0 +1,15 @@
+{
+  "name": "com.pixelwizards.sqlite",
+  "displayName": "SQLite Database",
+  "version": "0.1.0-preview.1",
+  "unity": "2018.4",
+  "description": "SQLite Database",
+  "category": "Database",
+  "author": {
+    "name": "Pixel Wizards",
+    "email": "support@pixelwizards.ca",
+    "url": "www.pixelwizards.ca"
+  },
+  "keywords": [],
+  "dependencies": {}
+}

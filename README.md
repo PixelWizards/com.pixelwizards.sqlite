@@ -1,10 +1,50 @@
-# sqlite-unity-plugin
+com.pixelwizards.sqlite
+=========================
 
-This plugin can be used to access sqlite database for unity projects in android and iOS devices. 
+Unity Package Manager compatible wrapper for [SQLite](https://www.sqlite.org/index.html) databases.  
 
-Copy paste the Plugins folder in the Assets folder of your project (or copy paste the contents into your existsing Plugins folder) and follow the points below to access your database in c#.
+This package is a fork of the source repo (https://github.com/rizasif/sqlite-unity-plugin), reorganized into Package Manager structure and published to OpenUPM.
+
+This plugin can be used to access SQLite database for Unity projects. Supports desktop, Android and iOS devices. 
+
+Usage
+--------------
+
+### Install via OpenUPM
+
+The package is available on the [openupm registry](https://openupm.com). It's recommended to install it via [openupm-cli](https://github.com/openupm/openupm-cli).
+
+```
+openupm add com.pixelwizards.sqlite
+```
+
+### Install via git url
+
+Add this to your project manifest.json
+
+```
+"com.pixelwizards.sqlite": "https://github.com/PixelWizards/com.pixelwizards.sqlite.git",
+```
+
+OpenUPM Support
+----------------
+
+This package is also available via the OpenUPM scoped registry: 
+https://openupm.com/packages/com.pixelwizards.sqlite
+
+Prerequistes
+---------------
+* This has been tested for `>= 2018.3`
+
+Quick Start
+----------------
+
+Check out https://github.com/sqlitebrowser/sqlitebrowser for an SQLite desktop client / database browser for creating / managing databases
+
+**Getting Started**
 
 1) Import the correct namespaces.
+
 ```
 using UnityEngine;
 using System.Data;
@@ -33,8 +73,5 @@ dbcmd.CommandText = q_createTable;
 reader = dbcmd.ExecuteReader();
 ```
 
-# Sample
-A Unity implementation of this plugin can be found [here](https://github.com/rizasif/sqlite-unity-plugin-example).
-
 # Tutorial
-Read this [artcle on medium](https://medium.com/@rizasif92/sqlite-and-unity-how-to-do-it-right-31991712190) for more details.
+Read this [artcle on medium](https://medium.com/@rizasif92/sqlite-and-unity-how-to-do-it-right-31991712190) for more details on using SQLite with Unity.
