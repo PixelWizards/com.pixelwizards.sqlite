@@ -1,6 +1,8 @@
 com.pixelwizards.sqlite
 =========================
 
+[![openupm](https://img.shields.io/npm/v/com.pixelwizards.sqlite?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.pixelwizards.sqlite/)
+
 Unity Package Manager compatible wrapper for [SQLite](https://www.sqlite.org/index.html) databases.  
 
 This package is a fork of the source repo (https://github.com/rizasif/sqlite-unity-plugin), reorganized into Package Manager structure and published to OpenUPM.
